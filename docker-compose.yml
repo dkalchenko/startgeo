@@ -1,0 +1,6 @@
+﻿services:
+  geolocationapp:
+    image: geolocationapp
+    build:
+      context: .
+      dockerfile: GeoLocationApp/Dockerfile
